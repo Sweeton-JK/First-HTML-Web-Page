@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table cellspacing="20px" width="100%" align="center">
+        <thead>
+            <th>OBJECTIVE</th>
+            <th>ELEMENT USED</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><labe><b>RATE THE CAFE FOOD</b></label></td>
+                <td> 0 <meter id="rate" value="8" min="0" max="10">70%</meter> 10 </td>
+            </tr>    
+            <tr>
+                <td><label><b>SUMMARY</b></label></td>
+                <td>
+                    <details>
+                        <summary>Survey Results</summary>
+                        <p>The FDA is releasing the latest results 
+                            of its Food Safety and Nutrition Survey
+                            (FSANS) designed to assess consumers’ 
+                            awareness, knowledge, understanding 
+                            reported behaviors relating to a variety
+                            of food safety and nutrition related 
+                            topics. The findings are designed to 
+                            help the FDA make better informed 
+                            regulatory, policy, education, and 
+                            other risk-management decisions to 
+                            promote and protect public health.  
+                        </p>
+                    </details>
+                </td>
+            </tr>    
+            <tr>
+                <td><label><b>AUTO FOCUS</b></label></td>
+                <td><label><b>FIRST NAME</b></label>
+                    <input type="text" name="autofocus" id="autofocus" autofocus>
+                </td>
+            </tr>    
+            <tr>
+                <td><label><b>PLACE HOLDER</b></label></td>
+                <td><input type="text" name="autofocus" id="autofocus" placeholder="First Name" autofocus></td>
+            </tr>    
+            <tr>
+                <td><label><b>INPUT DATALIST</b></label></td>
+                <td>
+                    <input list="datalists" name="datalist" id="datalist" autocomplete="on">
+                    <datalist id="datalists">
+                    <option value="Tamil Nadu">
+                    <option value="Telengana">
+                    <option value="Andhra Pradesh">
+                    <option value="Kerala">
+                    <option value="Karnataka">
+                    </datalist>
+                </td>
+            </tr>    
+            <tr>
+                <td><label><b>RANGE 1-100</b></label></td>
+                <td><input type="range" name="range_element" id="range_element" value="50" min="1" max="100"></td>
+            </tr>    
+            <tr>
+                <td><label><b>AUTO COMPLETE</b></label></td>
+                <td>
+                    <form autocomplete="off">
+                        <table>
+                            <th>Form (autocomplete="off")</th>
+                            <tr>
+                              <td>
+                                  <label><b>FIRST NAME</b></label>
+                              </td>
+                              <td>
+                                  <input
+                                    type="text"
+                                    name="fname"
+                                    id="fname"
+                                    placeholder="First Name"
+                                    autofocus
+                                    autocomplete="on"
+                                  />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                  <label><b>LAST NAME</b></label>
+                              </td>
+                              <td>
+                                  <input
+                                    type="text"
+                                    name="lname"
+                                    id="lname"
+                                    placeholder="Last Name"
+                                    autocomplete="on"
+                                  />
+                              </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>    
+            <tr>
+                <td><label><b>MARK</b></label></td>
+                <td>
+                    <p>
+                        Students were asked to rate the food in the cafeteria <br>
+                        <mark> a scale of 1 to 10. The average result was 7.</mark>
+                    </p>
+                </td>
+            </tr>    
+        </tbody>
+    </table>
+</body>
+</html>
